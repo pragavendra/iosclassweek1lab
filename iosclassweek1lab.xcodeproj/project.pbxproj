@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057877251CF00B6000C2EA7E /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057877241CF00B6000C2EA7E /* HomeFeedViewController.swift */; };
+		057877271CF00E5E00C2EA7E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057877261CF00E5E00C2EA7E /* MessageViewController.swift */; };
+		057877291CF00E8900C2EA7E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057877281CF00E8900C2EA7E /* NotificationViewController.swift */; };
+		0578772B1CF00EAB00C2EA7E /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578772A1CF00EAB00C2EA7E /* StoryViewController.swift */; };
+		0578772D1CF00EBD00C2EA7E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578772C1CF00EBD00C2EA7E /* SettingsViewController.swift */; };
+		0578772F1CF02CF200C2EA7E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578772E1CF02CF200C2EA7E /* DetailViewController.swift */; };
+		057877311CF041AC00C2EA7E /* CreateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057877301CF041AC00C2EA7E /* CreateStatusViewController.swift */; };
+		057877331CF041C700C2EA7E /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057877321CF041C700C2EA7E /* CreatePhotoViewController.swift */; };
+		057877351CF041F300C2EA7E /* CreateCheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057877341CF041F300C2EA7E /* CreateCheckinViewController.swift */; };
 		059CCE761CEED3AC0042375E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059CCE751CEED3AC0042375E /* AppDelegate.swift */; };
 		059CCE781CEED3AC0042375E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059CCE771CEED3AC0042375E /* ViewController.swift */; };
 		059CCE7B1CEED3AC0042375E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059CCE791CEED3AC0042375E /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057877241CF00B6000C2EA7E /* HomeFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeFeedViewController.swift; path = ../HomeFeedViewController.swift; sourceTree = "<group>"; };
+		057877261CF00E5E00C2EA7E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		057877281CF00E8900C2EA7E /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		0578772A1CF00EAB00C2EA7E /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		0578772C1CF00EBD00C2EA7E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0578772E1CF02CF200C2EA7E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		057877301CF041AC00C2EA7E /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStatusViewController.swift; sourceTree = "<group>"; };
+		057877321CF041C700C2EA7E /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
+		057877341CF041F300C2EA7E /* CreateCheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckinViewController.swift; sourceTree = "<group>"; };
 		059CCE721CEED3AC0042375E /* iosclassweek1lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosclassweek1lab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059CCE751CEED3AC0042375E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059CCE771CEED3AC0042375E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +115,7 @@
 		059CCE741CEED3AC0042375E /* iosclassweek1lab */ = {
 			isa = PBXGroup;
 			children = (
+				059CCEA51CEF004D0042375E /* viewControllers */,
 				059CCE751CEED3AC0042375E /* AppDelegate.swift */,
 				059CCE771CEED3AC0042375E /* ViewController.swift */,
 				059CCE791CEED3AC0042375E /* Main.storyboard */,
@@ -123,6 +142,22 @@
 				059CCE971CEED3AC0042375E /* Info.plist */,
 			);
 			path = iosclassweek1labUITests;
+			sourceTree = "<group>";
+		};
+		059CCEA51CEF004D0042375E /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0578772E1CF02CF200C2EA7E /* DetailViewController.swift */,
+				0578772C1CF00EBD00C2EA7E /* SettingsViewController.swift */,
+				0578772A1CF00EAB00C2EA7E /* StoryViewController.swift */,
+				057877281CF00E8900C2EA7E /* NotificationViewController.swift */,
+				057877261CF00E5E00C2EA7E /* MessageViewController.swift */,
+				057877241CF00B6000C2EA7E /* HomeFeedViewController.swift */,
+				057877301CF041AC00C2EA7E /* CreateStatusViewController.swift */,
+				057877321CF041C700C2EA7E /* CreatePhotoViewController.swift */,
+				057877341CF041F300C2EA7E /* CreateCheckinViewController.swift */,
+			);
+			name = viewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0578772B1CF00EAB00C2EA7E /* StoryViewController.swift in Sources */,
+				057877291CF00E8900C2EA7E /* NotificationViewController.swift in Sources */,
+				0578772D1CF00EBD00C2EA7E /* SettingsViewController.swift in Sources */,
 				059CCE781CEED3AC0042375E /* ViewController.swift in Sources */,
 				059CCE761CEED3AC0042375E /* AppDelegate.swift in Sources */,
+				057877311CF041AC00C2EA7E /* CreateStatusViewController.swift in Sources */,
+				057877351CF041F300C2EA7E /* CreateCheckinViewController.swift in Sources */,
+				057877271CF00E5E00C2EA7E /* MessageViewController.swift in Sources */,
+				057877331CF041C700C2EA7E /* CreatePhotoViewController.swift in Sources */,
+				057877251CF00B6000C2EA7E /* HomeFeedViewController.swift in Sources */,
+				0578772F1CF02CF200C2EA7E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +526,7 @@
 				059CCE9C1CEED3AC0042375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		059CCE9D1CEED3AC0042375E /* Build configuration list for PBXNativeTarget "iosclassweek1labTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +535,7 @@
 				059CCE9F1CEED3AC0042375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		059CCEA01CEED3AC0042375E /* Build configuration list for PBXNativeTarget "iosclassweek1labUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +544,7 @@
 				059CCEA21CEED3AC0042375E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
